@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    }
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .bgimg-2 {
+    background-image: url('https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3');
+    min-height: 600px;
+    }
+    .bgimg-3 {
+    background-image: url('https://png.pngtree.com/background/20231204/original/pngtree-vibrant-red-canvas-sports-shoes-with-elevated-soles-unisex-design-in-picture-image_6679754.jpg');
+    min-height: 600px;
+    }
+    .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    }
+    .caption span.border {
+    background-color: rgba(128, 128, 128, 0.695);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    }
+    h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    }
+
+.dbar{
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 20px rgb(255, 255, 255));
+    height: 30px;
+    text-align:center;
+}
+.textt{
+    font-size:30px;
+    color: white;
+    filter: drop-shadow(2px 2px 20px rgb(255, 255, 255));
+    font-size: x-large;
+}
